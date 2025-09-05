@@ -1,14 +1,2 @@
-import { HttpClientModule } from '@angular/common/http';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule   // ✅ Ajout
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+// This file is no longer needed because AppComponent is standalone.
+// You can delete this file.
